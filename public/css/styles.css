@@ -1,0 +1,56 @@
+:root {
+    /* COLORES */
+    --color-verdeClaro: #dfffbe;
+    --color-verdeOscuro: #92c88a;
+    /* FUENTES */
+    --font-poppins: 'Poppins', sans-serif;
+    /* TAMAÑOS DE FUENTES */
+    --title: 25px;
+    --paragraph: 14px; 
+    --subtitulos: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+body{
+    background-color: rgb(152, 152, 152);
+}
+
+header{
+    background-color: aqua;
+    height: 130px;
+    padding: 20px;
+}
+#cabeza{
+    padding: 20px;
+    width: 432px;
+    height: 600px;
+    padding: 60px;
+}
+
+a{
+    display: flex;
+    align-items: center;
+}
+
+#subCabeza{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(255, 255, 84);
+    position: absolute;
+    opacity: 50%;
+    
+}
+
+ #imagen{
+    border: 3px rgb(67, 0, 250) solid;
+    opacity: 50%;
+    height: 500px;
+    width: 300px;
+}
