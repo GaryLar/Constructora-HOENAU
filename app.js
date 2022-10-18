@@ -5,7 +5,7 @@ const path=require("path")
 const indexRouter=require("./src/routes/indexRouter")
 
 require('dotenv').config();
-const ports=process.env.PORT
+const ports=process.env.PORT || 3000
 
 app.use(express.static('public'));
 app.use(express.urlencoded({extended: false}));
