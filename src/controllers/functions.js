@@ -5,7 +5,7 @@ const transporter=nodemailer.createTransport({
         port:587,
         auth:{
             user:"solutions.lardev@gmail.com",
-            pass:process.env.PASSW
+            pass:process.env.COR
         }
 })
 
