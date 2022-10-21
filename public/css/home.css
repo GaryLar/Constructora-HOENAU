@@ -13,8 +13,7 @@ body div img {
     
     .cajaTexto-ImagenPrincipal{
         background-color: #FEF5AC;
-        
-        width: 330px;
+        width: 340px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -159,4 +158,23 @@ body div img {
         font-family: var(--font-poppins);
         margin-top: 15px;
         margin-bottom: 27px;
+    }
+
+    @media(min-width: 400px){
+        .proyectos-destacados img{
+            width: 180px;
+            height: 250px;
+            margin: 0px 7px 10px 7px ;
+           
+        }
+        .cajaTexto-ImagenPrincipal{
+            background-color: #FEF5AC;
+            width: 370px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -60px;
+            border-radius: 4px;  
+        }
+        
     }
