@@ -2,27 +2,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="shortcut icon" href="/images/logo.png" width="100%" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Hoenau</title>
 </head>
-    <header>
-        <h1>HEADER</h1>
-    </header>
-    <body>
+<header>
+    <div id="preHeader">
+                <img src="/images/logo.png" alt="">
+            <div class="contenedor">
+                 <div class="mail">
+                    <i class="fa-regular fa-envelope"></i>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                 
+                 <div class="header-texto">
+                    <p>correo123456@gmail.com</p>
+                    <p>+54 1121603132</p>
+                 </div>
+            </div>
+    </div> 
+    <div class="coHeader">
+        <h2>Nosotros</h2>
+        <h2>Obras</h2>
+        <h2>Contacto</h2>
+    </div> 
+</header>
 
-        <h1>cabeza 1</h1>
-        <div id="cabeza">
-            <a href="/obras">
-                <img id="imagen" src="/images/edificio-60-10-11-poster.jpg" alt="">
-            <div id="subCabeza"></div>
-            </a>
-        </div>
-        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tenetur suscipit deleniti, error neque consectetur sapiente quam itaque similique enim! Laborum deleniti inventore neque rem eius tenetur minima modi ducimus.</h1>
+<body>
+    <div class="bodyPrincipal">
         <div>
-            <button></button>
+            <img src="/images/principal.webp" alt="">
         </div>
-    </body>
+        <div class="cajaTexto-ImagenPrincipal">
+            <p class="años">xxx años</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda optio earum error corporis nostrum, mollitia voluptatum qui animi itaque temporibus ex saepe maiores non expedita totam voluptate, consequuntur tempora neque.</p>
+        </div>
+    </div>
+
+    <h2 class="obrasDEs">Obras destacadas</h2>
+    <div class="proyectos-destacados"> 
+                <div class="proyecto1">
+                    <a href=""><img src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
+                    <div><p>Nombre de proyecto</p></div>
+                </a>
+                </div>
+                <div class="proyecto1">
+                    <a href="">
+                            <img src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
+                            <div><p>Nombre de proyecto</p></div>
+                    </a>
+                </div>
+                <div class="proyecto1">
+                    <a href=""><img src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
+                    <div><p>Nombre de proyecto</p></div>
+                </a>
+                </div>
+                <div class="proyecto1">
+                    <a href="">
+                            <img src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
+                            <div><p>Nombre de proyecto</p></div>
+                    </a>
+                </div>   
+    </div>
+
+    <section class="form-contact">
+        <div class="form-title"><h2>INFORMACION DE CONTACTO</h2></div>
+        
+        <form action="/nosotros" method="POST">
+            <div class="input-contact">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" class="style-input-contact" placeholder="Ingrese su nombre">
+            </div>
+            <div class="input-contact">
+                <label for="phone">Teléfono</label>
+                <input type="number" name="phone" id="phone" class="style-input-contact" placeholder="Ingrese su número de teléfono">
+            </div>
+            <div class="input-contact">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="style-input-contact" placeholder="Ingrese su email">
+            </div>
+            <div class="input-contact">
+                <label for="comments">Comentarios</label>
+                <textarea name="comments" id="comments" cols="30" rows="7" class="coment" placeholder="Escriba su consulta"></textarea>
+            </div>
+            <div class="contain-button-contact">
+                <button type="submit" class="submit-contact" >Enviar</button>
+            </div>
+        </form>
+
+    </section>
+  
+</body>
+        
+    
+    
 </html>

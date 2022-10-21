@@ -3,7 +3,7 @@
 #sudo chown -R ubuntu:ubuntu /var/www #Donde ubuntu es el nombre de usuario del sistema
 
 #para enlace simbolico
-# sudo ln -s /etc/nginx/sites-available/archivo /etc/nginx/sites-enabled/archivo
+# sudo ln -s /etc/nginx/sites-available/backend.nginx /etc/nginx/sites-enabled/backend.nginx
 
 server {
     listen 80;
