@@ -1,0 +1,162 @@
+
+/*------- -------- BODY   -------- --------*/
+body div img {
+    width:100%;
+    
+    }
+    
+    body .bodyPrincipal{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    
+    .cajaTexto-ImagenPrincipal{
+        background-color: #FEF5AC;
+        
+        width: 330px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -60px;
+        border-radius: 4px;  
+    }
+    
+    .cajaTexto-ImagenPrincipal p{
+        padding: 10px 10px 10px 0px;
+        font-family: var(--font-poppins);
+        font-size: 13px;
+    }
+    
+    .cajaTexto-ImagenPrincipal .años{
+        font-family: var(--font-poppins);
+        font-size: 30px;
+        text-align: center;
+        padding-left: 7px;
+    }
+    
+    body .obrasDEs{
+        margin: 45px 0px 15px 0px;
+        text-align: center;
+        font-family: var(--font-poppins);
+        font-size:25px
+    }
+    
+    .proyectos-destacados{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    
+    .proyectos-destacados img{
+        width: 165px;
+        height: 220px;
+        margin: 0px 7px 10px 7px ;
+        border-radius: 5px;
+        opacity: 70%;
+        box-shadow: 6px 6px 4px 0px rgba(95,111,148,0.3); 
+    }
+    
+    .proyectos-destacados .proyecto1 div{
+        width: 165px;
+        height:50px;
+        background-color: rgba(245, 189, 46,0.65);
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .proyectos-destacados .proyecto1 div p{
+         display: flex;
+         flex-direction: column;
+        font-family: var(--font-poppins);
+        font-size: 15px;
+        color: black; 
+       
+    }
+    
+    .proyectos-destacados .proyecto1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .proyectos-destacados .proyecto1 a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .form-contact{
+        padding-top: 30px;
+    }
+    .form-contact .form-title{
+        background-color:rgba(95, 111, 148	,0.5 );
+        height: 51px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-contact h2{
+    font-family: var(--font-poppins);
+    font-size: var(--subtitulos);
+    font-weight:600;
+    }
+    .form-contact form{
+        display: flex;
+        flex-direction: column;
+        border-bottom:#5F6F94 1px solid;
+        
+    }
+    
+    .input-contact{
+        display: flex;
+        justify-content: right;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 10px;
+    }
+    .input-contact label{
+        font-family: var(--font-poppins);
+    }
+    
+    .input-contact .style-input-contact{
+        margin-top: 8px;
+        border: none;
+        border-bottom: 1px #5F6F94 solid;
+        outline: none;
+        height: 25px;
+    }
+    
+    .input-contact .coment {
+        border:1px #5F6F94 solid;
+        border-radius: 4px;
+        background-color:  rgba(254, 245, 172, 0.10);
+        overflow: scroll;
+        resize: none;/*No deja que el text area cambie de tamaño*/
+        outline: none;
+        padding-left: 5px;
+        padding-top: 5px;
+        margin-top: 10px;
+    }
+    
+    .contain-button-contact {
+        text-align: center;
+    }
+    
+    .submit-contact{
+        width:100px ;
+        height: 40px;
+        border-radius: 4px;
+        border:1px solid  #5F6F94;
+        background-color: #5F6F94;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: var(--font-poppins);
+        margin-top: 15px;
+        margin-bottom: 27px;
+    }
