@@ -160,12 +160,35 @@ body div img {
         margin-bottom: 27px;
     }
 
+    .container-whatsapp{
+            position:  fixed;
+            z-index: 999;
+            border-radius: 50%;
+            bottom: 40px;
+            right: 40px;
+            padding: 10px;
+            width: 25px;
+            height: 25px;
+    }
+    .container-whatsapp:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    .container-whatsapp a img {
+        width: 50px;
+        height: 50px;
+    }
+
+
     @media(min-width: 400px){
         .proyectos-destacados img{
             width: 180px;
             height: 250px;
             margin: 0px 7px 10px 7px ;
            
+        }
+        .proyectos-destacados .proyecto1 div{
+            width: 180px;
         }
         .cajaTexto-ImagenPrincipal{
             background-color: #FEF5AC;

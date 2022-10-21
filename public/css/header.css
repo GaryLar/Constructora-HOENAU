@@ -21,21 +21,21 @@
 body{
 width: auto;
 }
+
 #preHeader{
     height: 110px;
-   
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 #preHeader img{
-    width: 180px;height: 120px;
+    width: 160px;height: 120px;
 }
 
 #preHeader .contenedor{ 
 display: flex;
-margin-right: 6px;
+margin-right: 15px;
 }
 .mail{
     display: flex;
@@ -62,21 +62,71 @@ margin-right: 6px;
     padding: 11px 0px 12px 4px;
     font-family: var(--font-poppins);
     font-weight:760;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .coHeader{
-    background-color: rgba(254, 245, 172, 0.75);
-    height: 80px;
+    background-color: rgba(254, 245, 172, 100);
+    height: 60px;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
+    
+}
+
+
+.icono-menu i{
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.cont-menu{
+    margin-top: 170px;
+    background-color: rgba(254, 245, 172, 100);
+    width: 100%;
+    height: 21%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+    
+}
+.cont-menu ul{
+    padding: 10px 0px 20px 0px;
+    font-family: var(--font-poppins);
+    font-size: 20px;
+}
+
+.cont-menu ul li{ 
+    height: 50px;
+    display: block;
+    padding: 10px 0px 15px 10px;
+    cursor: pointer;
+}
+
+.cont-menu ul li:hover{
+background-color: #F5BD2E;
 }
 
 .coHeader h2 {
-
 font-size: 23px;
 font-family: var(--font-poppins);
 opacity: 1;
+display: none;
+}
 
+.active{
+    transform: translate(-600px);
+}
+
+
+
+@media(min-width: 400px){
+    #preHeader img{
+        width: 215px;height: 130px;
+    }
+    #preHeader{
+        height: 130px;
+    }
 }
