@@ -16,6 +16,7 @@ footer{
 }
 .footer-data{
     margin: 45px 15px 0px 15px;
+    padding-bottom: 15px;
     padding-top: 15px;
     display: flex;
     flex-wrap: wrap;
@@ -23,7 +24,7 @@ footer{
 }
 
 .footer-projects-title{
-font-size: 18px;
+font-size: 16px;
 font-weight: bold;
 font-family: var(--font-poppins);
 }
@@ -31,6 +32,7 @@ font-family: var(--font-poppins);
 .footer-projects {
     font-family: var(--font-poppins);
     padding-top: 14px;
+    padding-left: 5px;
 }
 .footer-projects a .subtitle {
     padding-top: 10px;
@@ -40,9 +42,10 @@ font-family: var(--font-poppins);
 
 .footer-contact{
     padding-top: 15px;
+    padding-left: 5px;
 }
 .footer-contact-title{
-font-size: 18px;
+font-size: 16px;
 font-weight: bold;
 font-family: var(--font-poppins);
 }
@@ -66,8 +69,9 @@ font-family: var(--font-poppins);
 margin-top: 17px;
 font-family: var(--font-poppins);
 font-weight: bolder;
-font-size: 18px;  
+font-size: 16px;  
 margin-bottom: 10px;
+padding-left: 5px;
 }
 
 .footer-next{
@@ -86,7 +90,7 @@ margin-bottom: 10px;
 }
 .footer-next p{
     margin-top: 90px;
-    font-size: 10px;
+    font-size: 9px;
     color: rgba(0, 0,0, 0.60);
 
 }
