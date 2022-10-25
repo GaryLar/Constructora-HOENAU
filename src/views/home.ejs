@@ -16,12 +16,15 @@
             <div class="contenedor">
                  <div class="mail">
                     <i class="fa-regular fa-envelope"></i>
-                    <a href="" style="text-decoration: none;color: black;"><i class="fa-solid fa-phone"></i></a>
+                    <a href="" style="text-decoration: none;color: black;" class="tel"><i class="fa-solid fa-phone"></i></a>
                 </div>
-                 
+                 <div class="desk-preheader">
+                    <p class="desk-mail">Email</p>
+                    <p>Llamenos</p>
+                 </div>
                  <div class="header-texto">
                     <p>correo123456@gmail.com</p>
-                    <p><a href=""style="text-decoration: none;color: black;">+54 1121603132</a> </p>
+                    <p><a  href=""style="text-decoration: none;color: black;" class="tel-text">+54 1121603132</a> </p>
                  </div>
             </div>
     </div> 
@@ -39,9 +42,12 @@
         </div>
         
 <!-- --- desktop- -->
-        <h2>Nosotros</h2>
-        <h2>Obras</h2>
-        <h2>Contacto</h2>
+        <div class="desktop">  
+            <h2>Nosotros</h2>
+            <h2>Obras</h2>
+            <h2>Contacto</h2>
+        </div>
+      
     </div> 
 </header>
 
@@ -61,30 +67,44 @@
     <h2 class="obrasDEs">Obras destacadas</h2>
     <div class="proyectos-destacados"> 
                 <div class="proyecto1">
-                    <a href=""><img src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
-                    <div><p>Nombre de proyecto</p></div>
+                    <a href=""><img class="imgZ" src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
+                    <div class="zoom "><p>Nombre de proyecto</p></div>
                 </a>
                 </div>
                 <div class="proyecto1">
                     <a href="">
-                            <img src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
-                            <div><p>Nombre de proyecto</p></div>
+                            <img class="imgZ" src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
+                            <div class="zoom" ><p>Nombre de proyecto</p></div>
                     </a>
                 </div>
                 <div class="proyecto1">
-                    <a href=""><img src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
-                    <div><p>Nombre de proyecto</p></div>
+                    <a href=""><img id="imgZ" class="" src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
+                    <div class="zoom " ><p>Nombre de proyecto</p></div>
                 </a>
                 </div>
                 <div class="proyecto1">
                     <a href="">
-                            <img src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
-                            <div><p>Nombre de proyecto</p></div>
+                            <img id="imgZ" class="" src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
+                            <div class="zoom "><p>Nombre de proyecto</p></div>
                     </a>
                 </div>   
     </div>
-
+    
     <section class="form-contact">
+        
+        <div class="form-back2">
+            <p id="titulo">Informacion de contacto</p>
+            <div class="form-detalles">
+            <div class="form-i">
+                <i class="fa-regular fa-envelope"></i>
+                <a id="tel2" href="" style="text-decoration: none;color: black;"><i class="fa-solid fa-phone"></i></a>
+            </div>
+            <div>
+                <p>correo123456@gmail.com</p>
+                <p>+54 1121603112</p>
+            </div>
+        </div>
+        </div>
         <div class="form-title"><h2>INFORMACION DE CONTACTO</h2></div>
         
         <form action="/nosotros" method="POST">
@@ -108,13 +128,14 @@
                 <button type="submit" class="submit-contact" >Enviar</button>
             </div>
         </form>
+        <div class="form-back"></div>
 
     </section>
 </body>
 
 <footer>
     <div class="footer-data">
-
+        
         <div class="footer-projects">
             <a href="" style="text-decoration: none;color: black;">
                 <p class="footer-projects-title">Obras</p>
@@ -131,7 +152,7 @@
             </div>
             <div>
                 <a href="" style="text-decoration: none;color: black;"><i class="fa-solid fa-phone"></i></a>
-                </html>
+                
                 <a href="" style="text-decoration: none;color: black;"><p>+54 1121603132</p></a>    
             </div>
         </div>
@@ -148,13 +169,15 @@
    <div>
     
 </footer>
-
-<div class="line-footer"></div>
-<div class="footer-next">
+<div class="footer-contenedor">
+    <div class="footer-next">
     
-    <img src="/images/logo.png" alt="">
-    <p>Copyright © 2022-HOENAU CONSTRUCCIONES</p>
+        <img src="/images/logo.png" alt="">
+        <p>Copyright © 2022-HOENAU CONSTRUCCIONES</p>
+    </div>
 </div>
+
 <script src="/js/menuBurguer.js"></script>
+<script src="/js/zoom.js"></script>
     </html>
 
