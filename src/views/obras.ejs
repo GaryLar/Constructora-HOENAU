@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <head>
+        <link rel="shortcut icon" href="/images/logo.png" width="100%" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/obras.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <title>Hoenau</title>
+    </head>
+    <%- include("partials/header.ejs") %>
+    <div class="container-whatsapp">
+        <a href="https://wa.me/+5491123864067?text=Quiero%20saber%20sobre%20sus%20servicios"><img src="/images/ws.png" alt=""></a>
+    </div>
 <body>
-    <h1>NUESTRAS OBRAS </h1>
-    <h2>Obra 1</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium ipsum quod. Sed dolorem excepturi culpa vel expedita numquam consequuntur praesentium magni cumque sunt! Aliquid, eos dolor. Saepe, in dolores?</p>
+    <h2 class="obras-title">En ejecucion</h2>
+    <div class="proyectos-destacados"> 
+        <div class="proyecto2">
+            <a href=""><img class="imgZ" src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
+            <div class="zoom "><p>Nombre de proyecto</p></div>
+        </a>
+        </div>
+        <div class="proyecto2">
+            <a href="">
+                    <img class="imgZ" src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
+                    <div class="zoom" ><p>Nombre de proyecto</p></div>
+            </a>
+        </div>
+        
+</div>
+<h2 class="obras-title">Finalizados</h2>
+<div class="proyectos-destacados"> 
+    <div class="proyecto1">
+        <a href=""><img class="imgZ" src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
+        <div class="zoom "><p>Nombre de proyecto</p></div>
+    </a>
+    </div>
+    <iv class="proyecto1">
+        <a href="">
+                <img class="imgZ" src="/images/obras/edificio-60-10-11-poster.jpg" alt="">
+                <div class="zoom" ><p>Nombre de proyecto</p></div>
+        </a>
+    </iv>
+</div>
 </body>
+
+<%- include("partials/footer.ejs") %>
+<script src="/js/menuBurguer.js"></script>
+<script src="/js/zoom.js"></script>
 </html>

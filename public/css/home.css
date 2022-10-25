@@ -205,6 +205,10 @@ body div img {
             margin-top: -60px;
             border-radius: 4px;  
         }
+         .proyecto1:hover{
+           transform: scale(1.05);
+           opacity:100%;
+        } 
         
     }
 
@@ -353,7 +357,7 @@ body div img {
         }
          .proyecto1:hover{
            transform: scale(1.05);
-           opacity:70%;
+           opacity:100%;
         } 
         
         .proyectos-destacados .proyecto1 div{
