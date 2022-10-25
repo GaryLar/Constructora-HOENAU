@@ -77,7 +77,6 @@ margin-right: 15px;
     
 }
 
-
 .icono-menu i{
     cursor: pointer;
     margin-right: 10px;
@@ -126,7 +125,7 @@ display: none;
 
 @media(min-width: 420px){
     #preHeader img{
-        width: 220px;height: 140px;
+        width: 250px;height: 140px;
     }
     #preHeader{
         height: 140px;
