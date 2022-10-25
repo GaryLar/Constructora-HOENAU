@@ -10,9 +10,6 @@ module.exports={
     about:(req,res)=>{
         res.render("nosotros.ejs")
     },
-    projects:(req,res)=>{
-        res.render("obras.ejs")
-    },
     mail:(req,res)=>{
 
        let {name,email,phone,comments}=req.body

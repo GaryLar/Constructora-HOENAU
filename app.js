@@ -3,6 +3,7 @@ const app=express()
 const path=require("path")
 
 const indexRouter=require("./src/routes/indexRouter")
+const obrasRouter=require("./src/routes/obrasRouter")
 
 require('dotenv').config();
 const ports=process.env.PORT || 3000
@@ -15,6 +16,8 @@ app.set('view engine', 'ejs')
 app.set('views', 'src/views')
 
 app.use("/",indexRouter)
+app.use("/obras",obrasRouter)
+
 
 
 
