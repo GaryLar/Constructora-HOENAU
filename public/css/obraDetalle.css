@@ -207,7 +207,7 @@ align-items: center ;
         object-fit:none; /* duda */
         box-shadow: 6px 6px 4px 0px rgba(95,111,148,0.2); 
         border: 1px black solid;
-        padding: 4px;
+        padding: 1px;
      }
      .detalle-contenido-3 div {
          width: 250px;
@@ -229,6 +229,7 @@ align-items: center ;
         display: inline-block;
         margin: 0px 0px 58px 28px;
         font-size: 35px;
+        color: #6B809B;
     }
     .detalle-contenido-1 div{
         width: 400px;

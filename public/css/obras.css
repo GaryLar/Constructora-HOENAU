@@ -10,7 +10,10 @@
 .proyectos-destacados .proyecto2{
     z-index: -10;
 }
-
+.proyecto2:hover{
+    transform: scale(1.05);
+    opacity:70%;
+ } 
 
 .proyectos-destacados .proyecto2 div{
     width: 165px;
@@ -22,6 +25,7 @@
     align-items: center;
     
 }
+
 .proyectos-destacados .proyecto2 div p{
      display: flex;
      flex-direction: column;
@@ -30,6 +34,7 @@
     color: black; 
    
 }
+
 
 .proyectos-destacados .proyecto2{
     display: flex;
@@ -117,7 +122,7 @@
         height: 400px;
         opacity: 85%;
     }
-     .proyecto1:hover{
+     .proyecto2:hover{
        transform: scale(1.05);
        opacity:70%;
     } 
